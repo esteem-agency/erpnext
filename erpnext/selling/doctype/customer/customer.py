@@ -66,6 +66,7 @@ class Customer(TransactionBase):
 		loyalty_program_tier: DF.Data | None
 		market_segment: DF.Link | None
 		mobile_no: DF.ReadOnly | None
+		moha: DF.Data | None
 		naming_series: DF.Literal["CUST-.YYYY.-"]
 		opportunity_name: DF.Link | None
 		payment_terms: DF.Link | None
